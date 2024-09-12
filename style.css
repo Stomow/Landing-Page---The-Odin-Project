@@ -6,11 +6,8 @@ body{
 }
 
 .header{
-    padding-top: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: #1F2937;
+    padding: 20px;
 }
 
 #headerLogo{
@@ -20,9 +17,11 @@ body{
 }
 
 ul{
+    margin: auto;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style: none;
-    justify-content: space-between;
 }
 
 a{
