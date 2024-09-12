@@ -1,9 +1,12 @@
 body{
-    background-color: #1F2937;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 .header{
+    padding-top: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,6 +21,7 @@ body{
 
 ul{
     display: flex;
+    list-style: none;
     justify-content: space-between;
 }
 
@@ -25,4 +29,132 @@ a{
     color: #e5e7eb;
     font-size:14px;
     text-decoration: none;
+}
+
+.welcome{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+h2{
+    color: white;
+    font-weight: 1500;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+#welcometxt{
+    color: #c6c6c6;
+}
+
+.welcometxt{
+    max-width: 400px;
+    min-width: 300px;
+    min-height: 100px;
+    color: #e5e7eb;
+}
+
+#mainImg{
+    max-width: 550px;
+    min-width: 375px;
+    min-height: 100px;
+    flex: 1;
+    border-radius: 20px;
+}
+
+#Onebtn{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#randinfo{
+    margin: 40px;
+    columns: #1f2937;
+    font-size: 25px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.info{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex: 1;
+}
+
+.box{
+    text-align: center;
+    max-width: 200px;
+    min-width: 100px;
+    flex: 1;
+}
+
+#boxImg{
+    border-radius: 20px;
+    border-color: #3882F6;
+    width: 200px;
+    height: 200px;
+}
+
+.testimony{
+    background-color: #E5E7EB;
+    padding: 80px;
+    font-size: 30px;
+}
+
+.testtxt{
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.author{
+    font-weight: 2000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cta{
+    padding: 20px;
+    text-align: center;
+    background-color: #3882F6;
+    margin: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+
+#Twobtn{
+    border-color: white;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 10px;
+    font-size: 12px;
+    color: #E5E7EB;
+    background-color: #1F2937;
 }
