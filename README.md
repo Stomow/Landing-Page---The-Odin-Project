@@ -1,2 +1,2 @@
 # Landing-Page---The-Odin-Project
-All the amazing artwork used on this landing page is from [Guweiz](https://x.com/ttguweiz)
+I created a landing page to show all the amazing artwork made by[Guweiz](https://x.com/ttguweiz)
